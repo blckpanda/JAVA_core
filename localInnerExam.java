@@ -1,5 +1,4 @@
-System.out.println("Inside Outer class"); 
-System.out.println("Inside My static class");
+
 class Outer {
     int x = 10;
     static int y = 20;
@@ -12,11 +11,9 @@ class Outer {
 
 }
 
-public class LocalInner {
+public class localInnerExam {
     public static void main(String[] args) {
         Outer.My m = new Outer.My();
         m.show();
-
     }
-
 }
