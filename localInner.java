@@ -11,7 +11,7 @@ class Outer {
 
 }
 
-public class localInner1 {
+public class localInner {
     public static void main(String[] args) {
         Outer.My m = new Outer.My();
         m.show();
